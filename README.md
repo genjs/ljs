@@ -3,12 +3,14 @@ Lighter Javascript Templates
 
 Derived from EJS Embedded Javascript Templates with new expressions for lighter templates
 
-## Install
+## How-To
+
+### Install
 ```
 npm install ljs-template --save
 ```
 
-## Render
+### Render
 ```
 var ljs = require('ljs-template');
 
