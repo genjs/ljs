@@ -108,23 +108,23 @@ console.log(out);
 ### Javascript code :
 ```
 {%
-  Javascript code
+  [javascript]
 %}
 ```
 
 ### Define variable :
 ```
-{#var variable_name = [javascript code] #}
+{#var [variable] = [javascript] #}
 ```
 
 ### Display variable :
 ```
-{{_[Javascript code]_}}
+{{_[variable]_}}
 ```
 
 ### If conditional :
 ```
-{#if [Javascript condition] #}
+{#if [condition] #}
 
 {/else/}
 
@@ -133,12 +133,12 @@ console.log(out);
 
 ### Loop over Map entries :
 ```
-{#each [javascript code] as [value], [key] #}
+{#each [map] as [value], [key] #}
 {/each/}
 ```
 
 ### Loop over Array values :
 ```
-{#each [javascript code] as [value], [index] #}
+{#each [array] as [value], [index] #}
 {/each/}
 ```
