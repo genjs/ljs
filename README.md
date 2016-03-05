@@ -24,25 +24,6 @@ Hello Max
 
 ## Sample
 
-### Data :
-```
-var data =
-{
-  books: [
-    {
-      title: "Cravings: Recipes for All the Food You Want to Eat",
-      authors: ["Chrissy Teigen", "Adeena Sussman"],
-      price: "$17.85"
-    },
-    {
-      title: "Pretty Happy: Healthy Ways to Love Your Body",
-      authors: ["Kate Hudson"],
-      price: "$15.89"
-    }
-  ]
-}
-```
-
 ### Template :
 ```
 var template = `
@@ -66,6 +47,25 @@ var template = `
 {/each/}
 
 `;
+```
+
+### Data :
+```
+var data =
+{
+  books: [
+    {
+      title: "Cravings: Recipes for All the Food You Want to Eat",
+      authors: ["Chrissy Teigen", "Adeena Sussman"],
+      price: "$17.85"
+    },
+    {
+      title: "Pretty Happy: Healthy Ways to Love Your Body",
+      authors: ["Kate Hudson"],
+      price: "$15.89"
+    }
+  ]
+}
 ```
 
 ### Render :
