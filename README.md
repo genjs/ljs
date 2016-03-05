@@ -24,24 +24,24 @@ Hello Max
 
 ## Expressions
 
-Javascript code :
+### Javascript code :
 ```
 {%
   Javascript code
 %}
 ```
 
-Define variable :
+### Define variable :
 ```
 {#var variable_name = [javascript code] #}
 ```
 
-Display Javascript code :
+### Display Javascript code :
 ```
-{{_[Javascript code to display]_}}
+{{_[Javascript code]_}}
 ```
 
-If conditional :
+### If conditional :
 ```
 {#if [Javascript condition] #}
 
@@ -50,13 +50,13 @@ If conditional :
 {/if/}
 ```
 
-Loop over Map entries :
+### Loop over Map entries :
 ```
 {#each [javascript code] as [value], [key] #}
 {/each/}
 ```
 
-Loop over Array entries :
+### Loop over Array values :
 ```
 {#each [javascript code] as [value], [index] #}
 {/each/}
@@ -64,7 +64,7 @@ Loop over Array entries :
 
 ## Template sample
 
-Data :
+### Data :
 ```
 var data =
 {
@@ -83,7 +83,7 @@ var data =
 }
 ```
 
-Template :
+### Template :
 ```
 var template = `
 
@@ -108,7 +108,7 @@ var template = `
 `;
 ```
 
-Render :
+### Render :
 ```
 var ljs = require('ljs-template');
 
@@ -117,7 +117,7 @@ var out = ljs.render(template, data);
 console.log(out);
 ```
 
-It displays:
+### It displays:
 ```
 <h1>Books:</h1>
 <h2>Cravings: Recipes for All the Food You Want to Eat</h2>
