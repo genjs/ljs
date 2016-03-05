@@ -27,7 +27,7 @@ Hello Max
 ## Sample
 
 ### Template :
-```jsx
+```html
 var template = `
 
 <h1>Books:</h1>
