@@ -22,46 +22,6 @@ It displays:
 Hello Max
 ```
 
-## Expressions
-
-### Javascript code :
-```
-{%
-  Javascript code
-%}
-```
-
-### Define variable :
-```
-{#var variable_name = [javascript code] #}
-```
-
-### Display Javascript code :
-```
-{{_[Javascript code]_}}
-```
-
-### If conditional :
-```
-{#if [Javascript condition] #}
-
-{/else/}
-
-{/if/}
-```
-
-### Loop over Map entries :
-```
-{#each [javascript code] as [value], [key] #}
-{/each/}
-```
-
-### Loop over Array values :
-```
-{#each [javascript code] as [value], [index] #}
-{/each/}
-```
-
 ## Template sample
 
 ### Data :
@@ -139,4 +99,44 @@ console.log(out);
   </li>
   <li>Price: $15.89
 </ul>
+```
+
+## Expressions
+
+### Javascript code :
+```
+{%
+  Javascript code
+%}
+```
+
+### Define variable :
+```
+{#var variable_name = [javascript code] #}
+```
+
+### Display Javascript code :
+```
+{{_[Javascript code]_}}
+```
+
+### If conditional :
+```
+{#if [Javascript condition] #}
+
+{/else/}
+
+{/if/}
+```
+
+### Loop over Map entries :
+```
+{#each [javascript code] as [value], [key] #}
+{/each/}
+```
+
+### Loop over Array values :
+```
+{#each [javascript code] as [value], [index] #}
+{/each/}
 ```
