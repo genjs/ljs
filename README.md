@@ -119,5 +119,24 @@ console.log(out);
 
 It displays:
 ```
-Hello Max
+<h1>Books:</h1>
+<h2>Cravings: Recipes for All the Food You Want to Eat</h2>
+<ul>
+  <li>Authors:
+    <ul>
+      <li>Chrissy Teigen</li>
+      <li>Adeena Sussman</li>
+    </ul>
+  </li>
+  <li>Price: $17.85
+</ul>
+<h2>Pretty Happy: Healthy Ways to Love Your Body</h2>
+<ul>
+  <li>Authors:
+    <ul>
+      <li>Kate Hudson</li>
+    </ul>
+  </li>
+  <li>Price: $15.89
+</ul>
 ```
