@@ -22,7 +22,7 @@ It displays:
 Hello Max
 ```
 
-## Template sample
+## Sample
 
 ### Data :
 ```
