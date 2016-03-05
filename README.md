@@ -117,7 +117,7 @@ console.log(out);
 {#var variable_name = [javascript code] #}
 ```
 
-### Display Javascript code :
+### Display variable :
 ```
 {{_[Javascript code]_}}
 ```
