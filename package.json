@@ -1,0 +1,23 @@
+{
+  "name": "ljs-template",
+  "version": "0.1.0",
+  "description": "Lighter Javascript Templates",
+  "main": "lib/ljs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genjs/ljs.git"
+  },
+  "keywords": [
+    "light",
+    "templates"
+  ],
+  "author": "genjs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/genjs1026/ljs/issues"
+  },
+  "homepage": "https://github.com/genjs1026/ljs#readme"
+}
