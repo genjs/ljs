@@ -19,7 +19,7 @@ var out = ljs.render("Hello {{_name_}}", {name: "Max"});
 console.log(out);
 ```
 
-It displays:
+### It displays:
 ```
 Hello Max
 ```
