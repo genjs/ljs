@@ -6,12 +6,12 @@ Derived from EJS Embedded Javascript Templates with new expressions for lighter 
 ## How-To
 
 ### Install
-```
+```bash
 npm install ljs-template --save
 ```
 
 ### Render
-```
+```javascript
 var ljs = require('ljs-template');
 
 var out = ljs.render("Hello {{_name_}}", {name: "Max"});
@@ -27,7 +27,7 @@ Hello Max
 ## Sample
 
 ### Template :
-```
+```javascript
 var template = `
 
 <h1>Books:</h1>
@@ -52,7 +52,7 @@ var template = `
 ```
 
 ### Data :
-```
+```javascript
 var data =
 {
   books: [
@@ -71,7 +71,7 @@ var data =
 ```
 
 ### Render :
-```
+```javascript
 var ljs = require('ljs-template');
 
 var out = ljs.render(template, data);
@@ -80,7 +80,7 @@ console.log(out);
 ```
 
 ### It displays:
-```
+```html
 <h1>Books:</h1>
 <h2>Cravings: Recipes for All the Food You Want to Eat</h2>
 <ul>
