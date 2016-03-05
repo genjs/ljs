@@ -32,7 +32,7 @@ var template = `
 
 <h1>Books:</h1>
 
-{#each books as book, index #}
+{#each books as book #}
 <h2>{{_book.title_}}</h2>
 <ul>
   <li>Authors:
