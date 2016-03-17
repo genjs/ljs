@@ -1,6 +1,6 @@
 {
   "name": "ljs-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lighter Javascript Templates",
   "main": "lib/ljs.js",
   "scripts": {
